@@ -1,0 +1,25 @@
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top: 10px; 
+}
+
+input{
+    margin-bottom: 10px;
+
+}
+
+#result{
+    margin-top: 20px;
+    font-size:18px ;
+    font-weight: bold;
+    text-align: center;
+}
