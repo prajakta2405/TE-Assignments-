@@ -1,4 +1,4 @@
-function submitForm() {
+function submitForm(){
 	// Get the values from the form
 	var name = document.getElementById("name").value;
 	var age = document.getElementById("age").value;
