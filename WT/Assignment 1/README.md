@@ -1,1 +1,0 @@
-Assignment 1 : [Link of Assignment 1](https://docs.google.com/document/d/1pLPxajihiHFu_UqNxET99qZU-CJbSdetGwXV45hL_iA/edit?usp=sharing)
