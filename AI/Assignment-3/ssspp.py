@@ -1,11 +1,7 @@
 import heapq
 
 def dijkstra(graph, start):
-    """
-    Compute the single-source shortest path for a weighted graph using Dijkstra's algorithm.
-    graph: a dictionary of dictionaries representing the graph, with edge weights as values
-    start: the starting vertex
-    """
+
     distances = {v: float('inf') for v in graph}
     distances[start] = 0
     

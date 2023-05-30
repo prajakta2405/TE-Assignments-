@@ -12,7 +12,7 @@ class graph:
         output=[]
         queue=Queue()
         visited=[False]*(max(self.graph)+1)
-           
+
            
         queue.put(s)
         visited[s]=True
@@ -32,6 +32,5 @@ g.addedge(0,1)
 g.addedge(0,2)
 g.addedge(1,2)
 g.addedge(2,0)
-g.addedge(2,3)
 g.addedge(3,3)
 g.BFS(2)

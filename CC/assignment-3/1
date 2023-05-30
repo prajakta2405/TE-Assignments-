@@ -1,0 +1,12 @@
+public class bank {
+    public Integer b=10000;
+    public static void deposite(Integer d  , Integer b){  
+        Integer r=b+d;
+        System.debug('Account balance after deposite is:' +r);
+    }
+   
+    public static void withdraw(Integer w , Integer b ){    
+        Integer r=b-w;
+        System.debug('Account balance after withdraw is:' +r);
+    }
+} 

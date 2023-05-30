@@ -1,5 +1,7 @@
 #%%
 import pandas as pd
+
+#from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
@@ -8,10 +10,10 @@ import seaborn as sns
 from sklearn.metrics import confusion_matrix
 
 
-
 iris = pd.read_csv('iris.csv')
-print(iris)
+#iris=load_iris()
 
+print(iris)
 
 X = iris.iloc[:, :-1]
 y = iris.iloc[:, -1]
@@ -55,10 +57,10 @@ print("True Positive:", TP)
 print("False Positive:", FP)
 print("True Negative:", TN)
 print("False Negative:", FN)
-print("Accuracy:", accuracy)
 print("Error Rate:", error_rate)
 print("Precision:", precision)
 print("Recall:", recall)
 print("F1 Score:", f1)
+
 
 # %%
